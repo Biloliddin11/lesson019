@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body class="bg-[#FCDC00]">
+    <header class="bg-[#FCDC00] mx-0 my-auto items-center">
+        <div class="max-w-[1472px] h-[60px] w-[100%] my-0 mx-auto px-4 bg-[#FCDC00]">
+            <nav class="flex items-center justify-between w-[1000px] h-[60px] my-0 mx-auto bg-[#333] text-white">
+                <div class="flex items-center">
+                    <a href="#"><img src="../assets/javascript.svg" alt="Logo" class="w-[48px]"></a>
+                    <h2 class="text-white text-xl">Java Script</h2>
+                </div>
+                <ul class="flex items-center justify-between gap-5">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="">
+                    <input type="text" placeholder="Search">
+                    <button type="submit" class="bg-[#fdc500] border-2 border-yellow-100 font-bold text-[#111] px-6 py-[6px] rounded-lg hover:bg-[#958102]">Search</button>
+                </div>
+                <div class="">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="bg-cover bg-center h-screen" style="background-image: url('./scale_1200.png');">
+        <div class="container mx-auto h-full flex items-center justify-center">
+          <div class="text-center">
+            <h1 class="text-5xl font-bold text-white mb-4">Welcome to Our Beautiful Website</h1>
+            <p class="text-xl text-gray-200 mb-8">Creative Designs & Amazing Solutions</p>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">Get Started</button>
+          </div>
+        </div>
+      </section>
+    
+      <!-- О нас -->
+      <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold mb-6">About Us</h2>
+          <p class="text-xl mb-4">We are a creative team that loves to design beautiful websites and solve problems with innovative solutions.</p>
+        </div>
+      </section>
+      <div class="container mx-auto py-12">
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <!-- Фото и заголовок -->
+          <div class="bg-blue-900 text-white text-center p-6">
+            <h1 class="text-4xl font-bold">Brendan Eich</h1>
+            <p class="text-xl mt-2">Creator of JavaScript, Co-founder of Mozilla</p>
+            <p class="mt-2">Image from 2012</p>
+          </div>
+    
+          <!-- Основная информация -->
+          <div class="p-6">
+            <h2 class="text-2xl font-semibold mb-4">Personal Information</h2>
+            <ul class="list-disc pl-6">
+              <li><strong>Born:</strong> July 4, 1961 (age 63)</li>
+              <li><strong>Place:</strong> Pittsburgh, Pennsylvania, US</li>
+              <li><strong>Alma mater:</strong> University of Illinois Urbana-Champaign, Santa Clara University</li>
+              <li><strong>Known for:</strong> Creation of JavaScript, Co-founder of Mozilla Project, Mozilla Foundation, Mozilla Corporation</li>
+              <li><strong>Website:</strong> <a href="https://brendaneich.com" class="text-blue-500 hover:underline">brendaneich.com</a></li>
+            </ul>
+          </div>node_modules
+        </div>
+      </div>
+    
+      <!-- Услуги -->
+      <section id="services" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold mb-10">Our Services</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+              <h3 class="text-2xl font-bold mb-4">Web Design</h3>
+              <p class="text-lg">We craft visually appealing and responsive websites tailored to your needs.</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+              <h3 class="text-2xl font-bold mb-4">Web Development</h3>
+              <p class="text-lg">Our developers create fast, secure, and scalable web applications.</p>
+            </div>
+            <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+              <h3 class="text-2xl font-bold mb-4">SEO Optimization</h3>
+              <p class="text-lg">We ensure your website ranks high on search engines to attract more visitors.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Контактная форма -->
+      <section id="contact" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+          <h2 class="text-4xl font-bold mb-10">Contact Us</h2>
+          <form id="contactForm" class="max-w-lg mx-auto">
+            <div class="mb-4">
+              <input type="text" id="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg">
+            </div>
+            <div class="mb-4">
+              <input type="email" id="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg">
+            </div>
+            <div class="mb-4">
+              <textarea id="message" placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-lg"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg">Send</button>
+          </form>
+        </div>
+      </section>
+    
+      <!-- Подвал -->
+      <footer class="bg-blue-900 text-white py-6">
+        <div class="container mx-auto text-center">
+          <p>&copy; 2024 Beautiful Website. All Rights Reserved.</p>
+        </div>
+      </footer>
+    
+</body>
+</html>
